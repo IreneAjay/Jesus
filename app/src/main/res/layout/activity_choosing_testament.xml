@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choosing_testament"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.roopa.jesus.choosingTestament">
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/button1"
+        android:background="@drawable/oldtest"
+        android:layout_alignParentTop="true"
+        android:layout_height="263dp"
+        android:contextClickable="true"
+        android:cursorVisible="true"
+        tools:onClick="onClick"
+        android:onClick="onClickOldTestament" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/button2"
+        android:background="@drawable/newtest"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="onClickNewTestament"
+        android:contextClickable="true"
+        />
+</RelativeLayout>

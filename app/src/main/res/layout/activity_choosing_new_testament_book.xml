@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_choose_book"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.roopa.jesus.ChooseBook">
+
+        <Button
+            android:text="Mathew"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Mark"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Luke"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="John"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Acts (of the Apostles)"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Romans"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="1 Corinthians"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="2 Corinthians"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Galatians"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Ephesians"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Philippians"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Colossians"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="1 Thessalonians"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="2 Thessalonians"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="1 Timothy"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="2 Timothy"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Titus"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Philemon"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Hebrews"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="James"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="1 Peter"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="2 Peter"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="1 John"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="2 John"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="3 John"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Jude"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Revelation"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/genesis"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick2"
+            android:contextClickable="true"/>
+
+
+</LinearLayout>
+</ScrollView>

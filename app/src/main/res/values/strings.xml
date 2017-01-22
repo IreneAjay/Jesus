@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Jesus</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="ListView">
+        <item>Read Bible</item>
+        <item>Daily Quotes</item>
+        <item>Readings Today</item>
+        <item>From the Priest</item>
+        <item>Inspirational Quotes</item>
+        <item>Quotes in times of need</item>
+        <item>news from Vatican</item>
+        <item>Prayer Request</item>
+
+
+    </string-array>
+    <string name="textview_simple">May the Lord be with you</string>
+    <string name="todomenu">Choose your need!</string>
+
+</resources>

@@ -1,0 +1,557 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="false">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_choose_book"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.roopa.jesus.ChooseBook">
+
+    <Button
+        android:text="Genesis"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/genesis"
+        android:layout_width="373dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        android:onClick="getYourData"
+        android:contextClickable="true"/>
+
+    <Button
+        android:text="Exodus"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/exodus"
+        android:layout_width="373dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        android:onClick="onClick"
+        android:contextClickable="true"/>
+
+    <Button
+        android:text="Leviticus"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/levi"
+        android:layout_width="373dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        android:onClick="onClick"
+        android:contextClickable="true"/>
+
+    <Button
+        android:text="Numbers"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/numbers"
+        android:layout_width="373dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        android:onClick="onClick"
+        android:contextClickable="true"/>
+
+    <Button
+        android:text="Deuteronomy"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/deut"
+        android:layout_width="373dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        android:onClick="onClick"
+        android:contextClickable="true"/>
+
+    <Button
+        android:text="Joshua"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/josh"
+        android:layout_width="373dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        android:onClick="onClick"
+        android:contextClickable="true"/>
+
+    <Button
+        android:text="Judges"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/judges"
+        android:layout_width="373dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        android:onClick="onClick"
+        android:contextClickable="true"/>
+
+    <Button
+        android:text="Ruth"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/ruth"
+        android:layout_width="373dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+
+        android:onClick="onClick"
+        android:contextClickable="true"/>
+
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_choose_book_s2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.roopa.jesus.ChooseBook">
+
+
+        <Button
+            android:text="1 Samuel"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/samuel1"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="2 Samuel"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/samuel2"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="1 Kings"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/king1"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="2 Kings"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/king2"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="1 Chronicles"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/chron1"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="2 Chronicles"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/chron2"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Ezra"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/ezra"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Nehemiah"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/nehe"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Tobit"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/tobit"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Judith"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/judith"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Esther"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/esther"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="1 Maccabees"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/mac1"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="2 Maccabees"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/mac2"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Job"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/job"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Psalms"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/psalms"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Proverbs"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/prov"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Ecclesiastes"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/eccle"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Song of Solomon"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/sol"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Wisdom of Solomon"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/wissol"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Sirach"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/sirach"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Isaiah"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/isaiah"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Jeremiah"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/jere"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Lamentations"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/lamen"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Baruch"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/baruch"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Ezekiel"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/eze"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Daniel"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/dan"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Hosea"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/hosea"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Joel"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/joel"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Amos"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/amos"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+
+        <Button
+            android:text="Obadiah"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/oba"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Jonah"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/dan"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Micah"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/micah"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Nahum"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/nahum"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Habakkuk"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/haba"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Zephaniah"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/zeph"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Haggai"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/haggai"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Zachariah"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/zach"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+        <Button
+            android:text="Malachi"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/malachi"
+            android:layout_width="373dp"
+            android:textStyle="bold"
+            android:textSize="25dp"
+
+            android:onClick="onClick"
+            android:contextClickable="true"/>
+
+
+</LinearLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
